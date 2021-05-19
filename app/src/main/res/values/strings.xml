@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Issuesghub</string>
+    <string name="title_padrao">Recycle view is not displaying</string>
+    <string name="status_padrao">Status:</string>
+    <string name="status_issue_padrao">OPEN</string>
+    <string name="titulo_do_issue">Titulo Do Issue</string>
+    <string name="open_on_broswer">Open on broswer</string>
+    <string name="data_padrao">03/08/2018</string>
+    <string name="an_error_occurred_while_fetching_data">An error occurred while fetching data</string>
+</resources>
