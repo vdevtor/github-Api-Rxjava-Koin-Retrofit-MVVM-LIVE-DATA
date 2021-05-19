@@ -6,5 +6,4 @@ import org.koin.test.KoinTestRule
 abstract class BaseKoinTest {
         @get:Rule
         val koinTestRule =  KoinTestRule
-
 }
