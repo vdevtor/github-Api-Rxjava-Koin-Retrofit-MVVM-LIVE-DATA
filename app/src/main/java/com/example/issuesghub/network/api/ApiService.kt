@@ -1,11 +1,11 @@
 package com.example.issuesghub.network.api
 
-import androidx.appcompat.app.AppCompatActivity
 import com.example.issuesghub.models.IssueModelItem
 import io.reactivex.Single
-import org.koin.android.ext.android.get
+import org.koin.core.KoinComponent
+import org.koin.core.get
 
-object ApiService : AppCompatActivity() {
+object ApiService : KoinComponent {
     val gitHubBuilder = get<ApiBuilder>()
     val gitHubApi = gitHubBuilder.getGitHubApiClient()
 

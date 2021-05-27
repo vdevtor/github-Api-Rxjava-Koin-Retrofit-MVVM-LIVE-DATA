@@ -15,7 +15,7 @@ import org.koin.core.KoinComponent
 import org.koin.core.inject
 
 class MainViewModel(application: Application) : AndroidViewModel(application), KoinComponent {
-
+    //att
     private val disposable = CompositeDisposable()
     var onResultListOfIssues = MutableLiveData<List<IssueModelItem>?>()
     val issueLoadError = MutableLiveData<Boolean>()

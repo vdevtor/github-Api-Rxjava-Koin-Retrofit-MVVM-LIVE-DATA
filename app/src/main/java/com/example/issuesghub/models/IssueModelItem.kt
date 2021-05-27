@@ -8,13 +8,13 @@ import java.util.*
 
 @Parcelize
 data class IssueModelItem(
-        val title: String,
-        val body: String,
+        val title: String?,
+        val body: String?,
         @SerializedName("created_at")
-        val createdAt: Date,
+        val createdAt: Date?,
         @SerializedName("html_url")
         val htmlUrl: String?,
         val state: String,
         val url: String?,
-        val user: User
+        val user: User?
 ) : Parcelable
